@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Script to display common TCP and UDP ports and their associated services
-# macOS commands
 
-lsof -iTCP -sTCP:LISTEN -n -P
+netstat -lp
